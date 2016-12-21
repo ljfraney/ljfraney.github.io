@@ -1,0 +1,17 @@
+*.gem
+*.swp
+*~
+_site
+.DS_Store
+.analysis
+.bundle/
+.byebug_history
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules
+Gemfile.lock
+.sass-cache
+.jekyll-metadata
+.ruby-gemset
+.ruby-version
