@@ -1,5 +1,5 @@
-title:            Site Title
-description:      Describe your website here.
+title:            code pill
+description:      a dose of code
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
@@ -11,13 +11,13 @@ url:
 owner:
   name:           Josh Franey
   avatar:         JoshDRProfile.jpg
-  bio:            "Web developer. Father. Husband. Musician. Not in that order."
+  bio:            "Web developer. Father. Musician. Husband. Not in that order."
   email:          ljfraney@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        ljfraney
   facebook:       ljfraney
   github:         ljfraney
-  stackexchange:  jfraney
+  stackexchange:  
   linkedin:       josh-franey-1972884a
   instagram:      
   flickr:         
