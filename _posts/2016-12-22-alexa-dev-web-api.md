@@ -12,4 +12,5 @@ Like most devs new to Alexa development, I created my first Alexa Skill, [C# Qui
 
 [freebusy.io](https://freebusy.io/blog/getting-started-with-alexa-app-development-for-amazon-echo-using-dot-net "Getting started with Alexa App development for Amazon Echo using .NET on Windows")
 [serverfault.com](http://serverfault.com/questions/301655/how-to-create-a-self-signed-ssl-certificate-with-subject-alternate-names-san-f "How to create a self-signed SSL certificate with subject alternate names (SAN) for IIS websites")
-
+[Bob Lautenbach's Template](https://github.com/boblautenbach/AlexaASKNetTemplate "GitHub page for Alexa ASK Template for .Net")
+[Walter Quesada's Pluralsight Video](https://www.pluralsight.com/courses/amazon-echo-developing-alexa-skills "Developing Alexa Skills for Amazon Echo")
