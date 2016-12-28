@@ -2,13 +2,13 @@
 layout: post
 title: Alexa Development with ASP.Net Web API
 description: "Developing Alexa Skills with ASP.Net Web API"
-modified: 2016-12-26
+modified: 2016-12-27
 tags: [alexa, .net, c#, asp.net, WebAPI]
 image:
   feature: AlexaWebAPI/EchoDotNet.jpg
 ---
 
-Like many new Alexa developers, I created my first Alexa Skill, [C# Quiz](http://bit.ly/CSharpQuiz "C# Quiz Alexa Skill on Amazon"), by downloading and modifying the [Trivia Game Template](https://developer.amazon.com/blogs/post/TxDJWS16KUPVKO/new-alexa-skills-kit-template-build-a-trivia-skill-in-under-an-hour "New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour"). It is backed by an AWS Lambda function, and I chose to write it in node.js, because Amazon has so graciously created the [node.js SDK for Alexa Skills Kit](https://github.com/amzn/alexa-skills-kit-js "GitHub Page for node.js ASK SDK"). This was a great approach to get my feet wet, and I would recommend it to anyone writing their first Alexa Skill. It will allow you to create and host your skill quickly, and it will help you learn your way around the [Developer Portal](https://developer.amazon.com/alexa "Amazon Developer Portal"). You will get to know the interaction model, and you'll learn the structure of the requests and responses that you will have to handle in your code. Most importantly, it will familiarize you with the certification process, and enable you to get your first skill in the store. Once you have a skill in the store, you will be totally excited about working on the next one. You know, the one that will make the world a better place!
+Like many new Alexa developers, I created my first Alexa Skill, [C# Quiz](http://bit.ly/CSharpQuiz "C# Quiz Alexa Skill on Amazon"), by downloading and modifying the [Trivia Game Template](https://developer.amazon.com/blogs/post/TxDJWS16KUPVKO/new-alexa-skills-kit-template-build-a-trivia-skill-in-under-an-hour "New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour"). It is backed by an AWS Lambda function, and I chose to write it in node.js, because Amazon has so graciously created the [node.js SDK for Alexa Skills Kit](https://github.com/amzn/alexa-skills-kit-js "GitHub Page for node.js ASK SDK"). This was a great way to get my feet wet, and I would recommend it to anyone writing their first Alexa Skill. It will allow you to create and host your skill quickly, and it will help you learn your way around the [Developer Portal](https://developer.amazon.com/alexa "Amazon Developer Portal"). You will get to know the interaction model, and you'll learn the structure of the requests and responses that you will have to handle in your code. Most importantly, it will familiarize you with the certification process, and enable you to get your first skill in the store. Once you have a skill in the store, you will be totally excited about working on the next one. You know, the one that will make the world a better place!
 
 After completing my first skill, I decided to shift my focus to the familiar. Learning a new technology can be a difficult task. Learning two new technologies at once is downright overwhelming. I've spent much of the last decade developing in C# and ASP.Net, and I needed to spend some of that Azure credit that came with my MSDN subscription! Of course, you could host node.js in Azure. You could also host .Net in AWS, but not yet in a Lambda Function.
 
@@ -184,12 +184,10 @@ Visual Studio 2015 ships with IIS Express 10.0. IIS Express settings are stored 
 
 There are several ways you could start writing your API. You could roll your own, if you enjoy pain, or you could use one or more of these resources.
  
-1. [Bob Lautenbach](http://braneworks.com "Braneworks") created a project called [AlexaASKNetTemplate](https://github.com/boblautenbach/AlexaASKNetTemplate "AlexaASKNetTemplate GitHub Page"). It includes a Visual Studio template that enables you to create a new Alexa Skill API from the New Project dialog in Visual Studio. It has the request and response objects mapped to classes, and boilerplate code for handling most common requests. It also has the code for verifying the certificate that is used to make requests to your app, which will be required to pass Amazon's certification process for your skill.
-
-![Echo Template]({{ site.url }}/images/AlexaWebAPI/EchoTemplate.png)
+1. [Bob Lautenbach](http://braneworks.com "Braneworks") created a project called [AlexaASKNetTemplate](https://github.com/boblautenbach/AlexaASKNetTemplate "AlexaASKNetTemplate GitHub Page"). It includes a Visual Studio template that enables you to create a new Alexa Skill API from the New Project dialog in Visual Studio. It has the request and response objects mapped to classes, and boilerplate code for handling most common requests. It also has the code for verifying the certificate that is used to make requests to your app, which will be required to pass Amazon's certification process for your skill.![Echo Template]({{ site.url }}/images/AlexaWebAPI/EchoTemplate.png)
 
 2. [Walter Quesada](http://qnovations.com "Qnovations") authored a Pluralsight course called [Developing Alexa Skills for Amazon Echo](https://www.pluralsight.com/courses/amazon-echo-developing-alexa-skills). Pluralsight gives you a 10-day trial when you sign up. You can cancel online at any time without having to pick up the phone. If, like me, you get busy and don't finish the course before your 10 days is up, you are converted to a $29/month subscription. If you cancel during that month, your account will remain active until the end of the month that you've paid for.
 
-3. [FreeBusy](https://freebusy.io "FreeBusy's Website") has created an [SDK similar to the Java ASK SDK](https://github.com/AreYouFreeBusy/AlexaSkillsKit.NET "AlexaSkillsKit.NET GitHub Page") created by Amazon. I haven't tried this yet, but it looks it looks promising.
+3. [FreeBusy](https://freebusy.io "FreeBusy's Website") created an [SDK similar to the Java ASK SDK](https://github.com/AreYouFreeBusy/AlexaSkillsKit.NET "AlexaSkillsKit.NET GitHub Page") created by Amazon. I haven't tried this yet, but it looks it looks promising.
 
 Now, Go Code!
