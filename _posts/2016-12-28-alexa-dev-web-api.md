@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Alexa Development with ASP.Net Web API
 description: "Developing Alexa Skills with ASP.Net Web API"
 modified: 2016-12-28
