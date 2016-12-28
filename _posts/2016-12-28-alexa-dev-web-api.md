@@ -2,7 +2,7 @@
 layout: post
 title: Alexa Development with ASP.Net Web API
 description: "Developing Alexa Skills with ASP.Net Web API"
-modified: 2016-12-27
+modified: 2016-12-28
 tags: [alexa, .net, c#, asp.net, WebAPI]
 image:
   feature: AlexaWebAPI/EchoDotNet.jpg
